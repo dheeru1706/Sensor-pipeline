@@ -1,0 +1,19 @@
+{
+  "run_timestamp": "2026-05-16T04:28:22.431392",
+  "data_quality": {
+    "total_raw": 20000,
+    "dropped_null_value": 2,
+    "dropped_non_numeric_value": 10,
+    "dropped_null_sensor_number": 0,
+    "dropped_non_numeric_sensor_number": 9,
+    "dropped_out_of_range_sensor": 0,
+    "dropped_bad_date": 0,
+    "clean_records": 19979
+  },
+  "result": {
+    "total_count": 19979,
+    "top_third_count": 6660,
+    "threshold_value": 66.71783557200527,
+    "average": 83.3152965378489
+  }
+}
