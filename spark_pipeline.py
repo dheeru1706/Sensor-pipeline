@@ -8,7 +8,7 @@ Usage (local):
     spark-submit spark_pipeline.py --data-root /path/to/source_data
 
 Usage (Databricks):
-    Upload to DBFS or a notebook, set DATA_ROOT to an S3/ADLS/GCS path.
+    Upload to DBFS, set DATA_ROOT to an ADLS path.
 """
 
 import os
