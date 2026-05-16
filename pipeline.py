@@ -36,7 +36,7 @@ VALID_SENSOR_NUMBER_MAX = 100
 
 def ingest_csv_files(root_dir: str) -> list[dict]:
     """
-    Walk data_source_1/<partition>/*.csv and ingest all CSV files.
+    Walk data_source_1/20250627/*.csv and ingest all CSV files.
     Returns a list of raw record dicts with a 'source' tag.
     """
     records = []
@@ -63,7 +63,7 @@ def ingest_csv_files(root_dir: str) -> list[dict]:
 
 def ingest_json_files(root_dir: str) -> list[dict]:
     """
-    Walk data_source_2/<partition>/*.json and ingest all JSON files.
+    Walk data_source_2/20250627/*.json and ingest all JSON files.
     Returns a list of raw record dicts with a 'source' tag.
     """
     records = []
